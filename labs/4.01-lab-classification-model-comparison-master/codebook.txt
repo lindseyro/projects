@@ -23,7 +23,7 @@ Q18	I get dizzy when I stand up sharply.
 Q19	I do not think it is normal to get emotionally upset upon hearing about the deaths of people you did not know.
 Q20	I sometimes feel like crying when I get angry.
 Q21	I do not remember birthdays.
-Q22	I save the letters I get.
+Q22	I save the letters I get
 Q23	I playfully insult my friends.
 Q24	I oppose medical experimentation with animals.
 Q25	I could do an impressive amount of push ups.
