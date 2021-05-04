@@ -7,11 +7,14 @@
 ### Problem: 
 Can we create a model to identify which subreddit a post is from?
 
+A classification model will be used to determine the subreddit based on data from each post. Success will be evaluated through metrics such as accuracy, precision, and recall scores. This project is being completed in order to show a class of data science students that NLP can be used to identify the variations in wording of reddit posts.
+
 ---
 
 ### Executive Summary
-I looked to define each of the categories so I could better understand how to classify them. Some similarities are that both are often in the form of a question where one person sets the stage, waits for a response, then delivers a punchline or answer. In the subreddits, they are supposed to be originals that the author comes up with. However, there are differences which allow my model to work: A riddle is more of a game or brain teaser while a joke is designed to cause amusement or laughter.
-In the subreddits specifically, a riddle won’t tell you the answer and other users are invited to guess in the comments, but jokes will be complete when posted. There is an even split between each of the categories, so my baseline accuracy score to improve on is 50%
+I looked to define each of the categories so I could better understand how to classify them. Some similarities are that both are often in the form of a question where one person sets the stage, waits for a response, then delivers a punchline or answer. In the subreddits, they are supposed to be originals that the author comes up with. However, there are differences which allow my model to work: A riddle is more of a game or brain teaser while a joke is designed to cause amusement or laughter. In the subreddits specifically, a riddle won’t tell you the answer and other users are invited to guess in the comments, but jokes will be complete when posted. 
+
+I pulled 2,000 posts from each subreddit. There is an even split between each of the categories, so my baseline accuracy score to improve on is 50%
 
 When diving into r/jokes versus r/riddles, I discovered that the riddles subbreddit uses more words and longer posts on average compared with the jokes subreddit. I dove deeper into the distributions of word count in both categories. They both have a similar distribution as seen in the histograms with over 81% of posts having less than 50 words. The box plots show that there are a lot of outliers when considering word count and length of post. The jokes subreddit goes up to 755 words and 3,962 characters. The riddles subreddit goes up to 926 words and 7,917 characters.
 
