@@ -12,10 +12,7 @@ How can we predict the sale price of homes using collected historical data?<br>
 ### Executive Summary
 To begin my process I sifted through Ames housing data including 2,051 observations and over 70 columns of different features relating to houses. I started by identifying the quantitative features to inspect the correlation to Sale Price. I based my search on most features in the data set. Any columns that had 1000 or more null values were not considered.
 
-Some ordinal data needed to be adjusted from an object to an integer as shown here:<br>
-<img src="images/ordinal.png">
-
-After converting features I ran tests to see which columns were most correlated and which had the highest significance in a linear model. The winners are the ones shown here:<br>
+Some ordinal data needed to be adjusted from an object to an integer. After converting features I ran tests to see which columns were most correlated and which had the highest significance in a linear model. The winners are the ones shown here:<br>
 
 <img src="images/correlations.png">
 
